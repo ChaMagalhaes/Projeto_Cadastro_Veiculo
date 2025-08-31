@@ -75,6 +75,4 @@ public class Veiculo {
     public void setCombustivel(String combustivel) {
         this.combustivel = combustivel;
     }
-    
-    
 }

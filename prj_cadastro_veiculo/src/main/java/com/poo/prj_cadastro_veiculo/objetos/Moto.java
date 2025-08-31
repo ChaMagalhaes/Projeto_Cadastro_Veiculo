@@ -9,5 +9,22 @@ package com.poo.prj_cadastro_veiculo.objetos;
  * @author Charles
  */
 public class Moto extends Veiculo{
-    
+    private int cilidrada;
+    private boolean partidaEletrica; 
+
+    public int getCilidrada() {
+        return cilidrada;
+    }
+
+    public void setCilidrada(int cilidrada) {
+        this.cilidrada = cilidrada;
+    }
+
+    public boolean getPartidaEletrica() {
+        return partidaEletrica;
+    }
+
+    public void setPartidaEletrica(boolean partidaEletrica) {
+        this.partidaEletrica = partidaEletrica;
+    }
 }

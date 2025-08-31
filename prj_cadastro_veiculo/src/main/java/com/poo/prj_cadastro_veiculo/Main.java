@@ -4,13 +4,15 @@
 
 package com.poo.prj_cadastro_veiculo;
 
+import com.poo.prj_cadastro_veiculo.menu.MenuPrincipal;
+
 /**
  *
  * @author Charles
  */
-public class Prj_cadastro_veiculo {
+public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        MenuPrincipal.menuPrincipal();
     }
 }

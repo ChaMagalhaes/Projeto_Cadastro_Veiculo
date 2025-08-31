@@ -9,5 +9,21 @@ package com.poo.prj_cadastro_veiculo.objetos;
  * @author Charles
  */
 public class Carro extends Veiculo{
-    
+    private int quantidadePortas, litrosbagageiro;
+
+    public int getQuantidadePortas() {
+        return quantidadePortas;
+    }
+
+    public void setQuantidadePortas(int quantidadePortas) {
+        this.quantidadePortas = quantidadePortas;
+    }
+
+    public int getLitrosbagageiro() {
+        return litrosbagageiro;
+    }
+
+    public void setLitrosbagageiro(int litrosbagageiro) {
+        this.litrosbagageiro = litrosbagageiro;
+    }
 }
